@@ -5,7 +5,7 @@ modules:
       resolver:
         function: resolver
       render: native
-      title: Hello-world a**hole
+      title: Hello-world viswesh
       route: hello-world
   function:
     - key: resolver
@@ -17,3 +17,6 @@ app:
   runtime:
     name: nodejs22.x
   id: ari:cloud:ecosystem::app/897f18b6-87a4-4367-b58f-af64d86a05dd
+permissions:
+  scopes:
+    - read:user:confluence
